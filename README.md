@@ -22,7 +22,8 @@ npm install
 
 ## Run
 
-The application running on https://localhost:3000. To start it, run:
+The application running on `https://localhost:3000`.
+To start:
 
 ```bash
 yarn dev
