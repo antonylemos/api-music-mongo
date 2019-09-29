@@ -12,7 +12,7 @@ cd api-music-mongo
 yarn install
 ```
 
-Or
+or
 
 ```bash
 git clone https://github.com/lemosantony/api-music-mongo.git
@@ -22,12 +22,36 @@ npm install
 
 ## Run
 
+The application running on https://localhost:3000. To start it, run:
+
 ```bash
 yarn dev
 ```
 
-Or
+or
 
 ```bash
 npm dev
 ```
+
+## Usage overview
+
+### Add music
+
+`POST /music`
+
+Example:
+
+```json
+{
+  "title": "À sua maneira",
+  "artist": "Capital Inicial",
+  "gender": "Rock",
+  "rating": "10.0",
+  "releaseYear": 2002
+}
+```
+
+`GET /musics`
+
+`GET /music/:id`
