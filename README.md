@@ -36,8 +36,6 @@ npm dev
 
 ## Usage overview
 
-### Add music
-
 `POST /music`
 
 Example:
@@ -54,4 +52,8 @@ Example:
 
 `GET /musics`
 
+Returns all created songs.
+
 `GET /music/:id`
+
+Returns a given song according to the `id` passed.
